@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pld.auth:
+    image: pld.auth
+    build:
+      context: .\Pld.Auth
+      dockerfile: Dockerfile
